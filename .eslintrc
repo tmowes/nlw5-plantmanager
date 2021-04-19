@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "@lukemorales"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "semi": false
+      }
+    ],
+    "no-empty-pattern": "off",
+    "func-names": "off"
+  }
+}
