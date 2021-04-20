@@ -6,26 +6,33 @@ import fonts from '../../styles/fonts'
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    width: '100%',
     alignItems: 'center',
     justifyContent: 'space-around',
-    paddingHorizontal: 20,
+  },
+
+  form: {
+    width: '100%',
+    alignItems: 'center',
+    paddingHorizontal: 54,
+  },
+  emoji: {
+    fontSize: 78,
   },
   title: {
-    fontSize: 28,
-    lineHeight: 34,
-    textAlign: 'center',
+    fontSize: 24,
+    lineHeight: 32,
     color: colors.heading,
     fontFamily: fonts.heading,
-    marginTop: 38,
-  },
-  subtitle: {
-    fontSize: 18,
     textAlign: 'center',
+    marginTop: 24,
+  },
+  description: {
+    fontSize: 17,
+    lineHeight: 25,
     color: colors.heading,
     fontFamily: fonts.text,
-  },
-  image: {
-    width: '100%',
+    textAlign: 'center',
+    marginVertical: 24,
   },
 })

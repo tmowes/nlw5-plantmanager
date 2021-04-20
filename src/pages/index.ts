@@ -1,2 +1,3 @@
-export { default as Welcome } from './Welcome'
-export { default as Home } from './Home'
+export { Welcome } from './Welcome'
+export { UserIdentification } from './UserIdentification'
+export { Confirmation } from './Confirmation'

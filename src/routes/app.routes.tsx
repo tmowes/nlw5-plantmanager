@@ -21,7 +21,8 @@ const AppRoutes = () => (
       }}
     >
       <Screen name="Welcome" component={P.Welcome} />
-      <Screen name="Home" component={P.Home} />
+      <Screen name="UserIdentification" component={P.UserIdentification} />
+      <Screen name="Confirmation" component={P.Confirmation} />
     </Navigator>
   </>
 )
