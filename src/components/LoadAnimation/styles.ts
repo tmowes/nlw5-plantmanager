@@ -3,13 +3,15 @@ import { StyleSheet } from 'react-native'
 import { colors } from '../../styles'
 
 export const styles = StyleSheet.create({
-  button: {
-    backgroundColor: colors.green,
+  container: {
+    flex: 1,
+    backgroundColor: colors.shape,
     alignItems: 'center',
     justifyContent: 'center',
-    borderRadius: 16,
-    height: 48,
-    width: 48,
-    zIndex: 10,
+  },
+  animation: {
+    backgroundColor: 'transparent',
+    width: 200,
+    height: 200,
   },
 })

@@ -11,6 +11,10 @@
   ],
   "plants_environments": [
     {
+      "key": "all",
+      "title": "Todos"
+    },
+    {
       "key": "living_room",
       "title": "Sala"
     },
